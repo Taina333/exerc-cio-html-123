@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício2 HTML</title>
+</head>
+<body>
+    <center>
+        <div class="cor">
+        <h3>SISTEMA DE GESTÃO ACADÊMIA</h3>
+        </div>
+        <h1>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h1>
+        <form action="" method="get">
+            <div>
+                <label for="">Login:</label>
+                <input type="text" required autofocus="enable">
+            </div>
+            <br>
+            <div>
+                <label for="">Senha:</label>
+                <input type="text" required autofocus="enable" autocomplete="on">
+            </div>
+            <br>
+            <div>
+                <label for="">Status:</label>
+                <select id="status" name="status">
+                    <option value="inativo">Inativo</option>
+                    <option value="ativo">Ativo</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">Tipo:</label>
+                <input type="radio" name="tipo" value="tecnico">Técnico
+                <input type="radio" name="tipo" value="professor">Professor
+                <input type="radio" name="tipo" value="aluno">Aluno
+            </div>
+            <br>
+            <div>
+                <label for="">Data de Criação:</label>
+                <input type="text" required autocomplete="enable">
+            </div>
+            <br>
+            <div>
+                <label for="">Perfil:</label>
+                <input type="radio" name="perfil" value="convidado">Convidado
+                <input type="radio" name="perfil" value="administrador">Administrador
+            </div>
+            <br>
+            <div>
+                <label for="">Observações:</label>
+                <textarea></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="">Módulos:</label>
+                <input type="checkbox" name="modulos" value="compras">Compras 
+                <input type="checkbox" name="modulos" value="biblioteca">Biblioteca
+                <input type="checkbox" name="modulos" value="academico">Academico<br>
+                <input type="checkbox" name="modulos" value="documentacao">Documentação
+                <input type="checkbox" name="modulos" value="recursos-humanos">Recursos Humanos
+            </div>
+            <br>
+            <button type="submit">Cadastrar</button>
+            <button type="reset">Excluir</button>
+        </form>
+    </center>
+</body>
+</html>

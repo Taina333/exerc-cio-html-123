@@ -1,0 +1,32 @@
+body {
+    background-color: #f1faf1;
+}
+
+.borda {
+    border-style: groove;
+    color-backgrand 
+}
+
+legend {
+    border-color: #b2f1b2; 
+}
+
+legend.verde {
+    border-color: #009900; 
+    border-style: solid;
+} 
+
+fieldset {
+    border-color: #b2f1b2; 
+    border-style: solid;
+} 
+
+.verde-claro {
+    border-color: #c3dbc3; 
+    border-style: solid;
+} 
+
+input {
+    border-color: #009900;
+    border-style: solid;
+}

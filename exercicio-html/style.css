@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    width: 10cm;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sim {
+    width: 10cm;
+    height: 3cm;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
