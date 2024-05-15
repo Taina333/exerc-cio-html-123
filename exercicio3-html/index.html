@@ -10,67 +10,77 @@
 
 <body>
     <fieldset>
-        <legend class="borda">Cadastro Geral</legend>
-        <br>
-        <div>
-            <fieldset>
-                <legend class="borda">Dados Pessoais</legend>
-                <label for="">Nome Completo:</label><br>
-                <input type="text" required autofocus="enable"><br>
-                <label for="">Profissão</label><br>
-                <select id="profissao" name="profissao">
-                    <option value="sua-profissao">Sua profissão</option>
-                    <option value="streamer">Streamer</option>
-                    <option value="vtuber">VTuber</option>
-                    <option value="youtuber">Youtuber</option>
-                </select>
-        </div>
-        <br>
-        <div>
-            <fieldset>
-                <legend class="borda">Localização</legend>
-                <label for="">E-mail:</label><br>
-                <input type="text" required autofocus="enable"><br>
-                <label for="">Rua</label><br>
-                <input type="text" required autofocus="enable">
-        </div>
-        <br>
-        <div>
-            <fieldset>
-                <legend class="borda">Faixa etária</legend>
-                <input type="radio" name="faixa-etaria" value="ate-20-anos">até 20 anos <br>
-                <input type="radio" name="faixa-etaria" value="mais-de-20-ate-30-anos">mais de 20 até 30 anos <br>
-                <input type="radio" name="faixa-etaria" value="mais-de-30-ate-40-anos">mais de 30 até 40 anos <br>
-                <input type="radio" name="faixa-etaria" value="mais-de-40-ate-50-anos">mais de 40 até 50 anos<br>
-                <input type="radio" name="faixa-etaria" value="mais-de-50-ate-60-anos">mais de 50 até 60 anos <br>
-                <input type="radio" name="faixa-etaria" value="mais-de-60-anos">mais de 60 anos <br>
-        </div>
-        <br>
-        <div>
-            <fieldset>
-                <legend class="borda">Esporte que pratica</legend>
-                <input type="checkbox" name="esporte-que-pratica" value="futebol-de-campo">Futebol de campo<br>
-                <input type="checkbox" name="esporte-que-pratica" value="futebol-de-salao">Futebol de salão<br>
-                <input type="checkbox" name="esporte-que-pratica" value="futebol-society">Futebol society<br>
-                <input type="checkbox" name="esporte-que-pratica" value="volley-de-quadra">Volley de quadra<br>
-                <input type="checkbox" name="esporte-que-pratica" value="volley-de-praia">Volley de praia<br>
-                <input type="checkbox" name="esporte-que-pratica" value="natacao-em-piscina">Natacão em piscina<br>
-                <input type="checkbox" name="esporte-que-pratica" value="natacao-em-mar-aberto">Natacão em mar aberto
-                <br>
-        </div>
-        <br>
-        <div>
-            <fieldset>
-                <legend class="borda">Comentário</legend>
-                <br>
-                <div>
-                    <legend>Mensagem:</legend>
-                    <textarea name="" id="comentario" cols="60" rows="10"></textarea>
-                </div>
-        </div>
-        <br>
+        <legend>Cadastro Geral</legend>
+        <div class="div-tudo">
+
+            <div class="div-dados"><!--dados-->
+                <fieldset class="fieldset-dados">
+                    <legend>Dados Pessoais</legend>
+                    <label for="">Nome Completo:</label><br>
+                    <input type="text" required autofocus="enable"><br>
+                    <label for="">Profissão</label><br>
+                    <select id="profissao" name="profissao">
+                        <option value="sua-profissao">Sua profissão</option>
+                        <option value="streamer">Streamer</option>
+                        <option value="vtuber">VTuber</option>
+                        <option value="youtuber">Youtuber</option>
+                    </select>
+                </fieldset>
+            </div><!--dados-->
+
+            <div class="div-loca"><!--localização-->
+                <fieldset class="fieldset-localizacao">
+                    <legend class="borda">Localização</legend>
+                    <label for="">E-mail:</label><br>
+                    <input type="text" required autofocus="enable"><br>
+                    <label for="">Rua</label><br>
+                    <input type="text" required autofocus="enable">
+                </fieldset>
+            </div><!--localização-->
+
+            <div class="div-faixa"><!--faixa-->
+                <fieldset>
+                    <legend class="borda">Faixa etária</legend>
+                    <input type="radio" name="faixa-etaria" value="ate-20-anos">até 20 anos 
+                    <input type="radio" name="faixa-etaria" value="mais-de-20-ate-30-anos">mais de 20 até 30 anos
+                    <input type="radio" name="faixa-etaria" value="mais-de-30-ate-40-anos">mais de 30 até 40 anos<br>
+                    <input type="radio" name="faixa-etaria" value="mais-de-40-ate-50-anos">mais de 40 até 50 anos
+                    <input type="radio" name="faixa-etaria" value="mais-de-50-ate-60-anos">mais de 50 até 60 anos
+                    <input type="radio" name="faixa-etaria" value="mais-de-60-anos">mais de 60 anos 
+                </fieldset>
+            </div><!--faixa-->
+
+            <div class="div-esporte"><!--esporte-->
+                <fieldset>
+                    <legend class="borda">Esporte que pratica</legend>
+                    <input type="checkbox" name="esporte-que-pratica" value="futebol-de-campo">Futebol de campo<br>
+                    <input type="checkbox" name="esporte-que-pratica" value="futebol-de-salao">Futebol de salão<br>
+                    <input type="checkbox" name="esporte-que-pratica" value="futebol-society">Futebol society<br>
+                    <input type="checkbox" name="esporte-que-pratica" value="volley-de-quadra">Volley de quadra<br>
+                    <input type="checkbox" name="esporte-que-pratica" value="volley-de-praia">Volley de praia<br>
+                    <input type="checkbox" name="esporte-que-pratica" value="natacao-em-piscina">Natacão em piscina<br>
+                    <input type="checkbox" name="esporte-que-pratica" value="natacao-em-mar-aberto">Natacão em mar
+                    aberto
+                </fieldset>
+            </div><!--esporte-->
+
+            <div class="div-comen"><!--comentário-->
+                <fieldset>
+                    <legend class="borda">Comentário</legend>
+
+                    <div class="div-men"><!--mensagem-->
+                        <legend>Mensagem:</legend>
+                        <textarea name="" id="comentario" cols="60" rows="10"></textarea>
+                    </div><!--mensagem-->
+            </div><!--comentário-->
+    </fieldset>
+
+    <div class="div-button"> <!--botões-->
         <button type="submit">Enviar</button>
         <button type="submit">Limpar</button>
+    </div><!--botões-->
+
+    </div>
     </fieldset>
 </body>
 
